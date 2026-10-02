@@ -329,3 +329,23 @@ select,input,textarea{font:400 .95rem var(--sans);padding:11px 12px;border:1px s
   .nav__logo--m .logo-a .logoName{font-size:.48rem;letter-spacing:.2em}
   .nav__cta{padding:8px 10px}
 }
+/* Welcome to Dover panel */
+.welcome{position:relative;margin:0;aspect-ratio:4/5;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;text-align:center;isolation:isolate}
+.welcome__photo{position:absolute;inset:0;z-index:-1;background:url(images/dover.jpg) 30% center/cover no-repeat;
+  -webkit-mask-image:radial-gradient(120% 95% at 50% 30%,#000 35%,rgba(0,0,0,.55) 62%,transparent 82%);
+          mask-image:radial-gradient(120% 95% at 50% 30%,#000 35%,rgba(0,0,0,.55) 62%,transparent 82%)}
+.welcome::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(236,227,208,0) 35%,rgba(236,227,208,.75) 68%,var(--cream-2) 92%);pointer-events:none}
+.welcome__type{display:flex;flex-direction:column;align-items:center;padding-bottom:18px}
+.welcome__pre{font:600 .82rem/1 var(--sans);letter-spacing:.42em;text-transform:uppercase;color:var(--navy);padding-left:.42em}
+.welcome__town{font-family:"Pinyon Script",cursive;font-weight:400;font-size:clamp(5rem,11vw,8.5rem);line-height:.95;color:var(--navy);margin-top:4px;text-shadow:0 2px 24px rgba(236,227,208,.9)}
+.welcome__town::after{content:"";display:block;width:64px;height:1px;background:var(--gold);margin:8px auto 0}
+.welcome__credit{position:absolute;right:6px;bottom:-22px;font-size:.62rem;color:var(--muted)}
+.welcome__credit a{color:inherit}
+@media (max-width:860px){.welcome{aspect-ratio:4/3.6}}
+.welcome__photo{
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 14%,#000 86%,transparent 100%),linear-gradient(180deg,transparent 0,#000 14%,#000 55%,transparent 96%);
+  -webkit-mask-composite:source-in;
+  mask-image:linear-gradient(90deg,transparent 0,#000 14%,#000 86%,transparent 100%),linear-gradient(180deg,transparent 0,#000 14%,#000 55%,transparent 96%);
+  mask-composite:intersect}
+.welcome::after{background:linear-gradient(180deg,rgba(239,230,211,0) 40%,rgba(239,230,211,.7) 70%,var(--cream-2) 94%)}
+.welcome__credit{bottom:-6px}

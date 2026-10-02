@@ -56,7 +56,6 @@
   $("#petBody").textContent = PT.body;
   $("#petTerms").innerHTML = PT.terms.map((t) => `<div><dt>${esc(t.label)}</dt><dd>${esc(t.value)}</dd></div>`).join("");
   $("#petNote").innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m5.6 5.6 12.8 12.8"/></svg><span><strong>${esc(PT.note)}</strong>${PT.noteSub ? `<br>${esc(PT.noteSub)}` : ""}</span>`;
-  setImg($("#petImg"), PT.image, "Photo");
 
   /* ---------- pricing teaser ---------- */
   const T = P.pricingTeaser;
