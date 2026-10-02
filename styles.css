@@ -317,3 +317,15 @@ select,input,textarea{font:400 .95rem var(--sans);padding:11px 12px;border:1px s
 .pets__note strong{color:#a3392b;font-size:1.05rem;letter-spacing:.01em;text-transform:uppercase;font-weight:700}
 .no-exotic{color:#a3392b}
 .foot-list strong{color:var(--cream-2);font-weight:600}
+/* mobile header: logo left, actions right */
+.nav__logo,.nav__logo *{text-decoration:none!important}
+@media (max-width:640px){
+  .nav__logo--m{position:static!important;transform:none!important;left:auto;top:auto;width:120px!important;height:52px;margin-left:4px;flex:none}
+  .nav__logo--m .logo-b{height:46px}
+  .nav__cta{margin-left:auto;margin-right:10px;padding:9px 14px;font-size:.7rem}
+}
+@media (max-width:360px){
+  .nav__logo--m{width:100px!important}
+  .nav__logo--m .logo-a .logoName{font-size:.48rem;letter-spacing:.2em}
+  .nav__cta{padding:8px 10px}
+}
