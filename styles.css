@@ -349,3 +349,13 @@ select,input,textarea{font:400 .95rem var(--sans);padding:11px 12px;border:1px s
   mask-composite:intersect}
 .welcome::after{background:linear-gradient(180deg,rgba(239,230,211,0) 40%,rgba(239,230,211,.7) 70%,var(--cream-2) 94%)}
 .welcome__credit{bottom:-6px}
+/* Welcome to Dover — line-art version */
+.welcome{background:radial-gradient(120% 80% at 50% 0%,#2a3450 0%,var(--navy) 70%);border-radius:var(--r);justify-content:space-between;padding:48px 26px 0;overflow:hidden;border:1px solid rgba(176,141,87,.45)}
+.welcome::after{display:none}
+.welcome__type{padding-bottom:0}
+.welcome__pre{color:var(--cream-2)}
+.welcome__town{color:var(--gold);text-shadow:none}
+.welcome__town::after{background:var(--gold)}
+.welcome__sky{display:block;width:100%;height:auto;opacity:.92;margin-top:auto}
+@media (max-width:860px){.welcome{aspect-ratio:auto;padding-top:36px;gap:18px}}
+.welcome{aspect-ratio:auto;align-self:center;gap:34px;padding-top:56px}
