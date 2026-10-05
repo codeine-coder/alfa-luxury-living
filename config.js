@@ -8,7 +8,7 @@ window.PROPERTY = {
   shortName: "337",
   logoSub: "EAST BLACKWELL",
   city: "Dover, NJ",
-  seoDescription: "19 completely remodeled, modern 1- and 2-bedroom apartments at 337 East Blackwell Street in Dover, NJ. 1-bedrooms from $1,795, 2-bedrooms from $2,450. Marble/granite countertops, stainless steel appliances, gas stove, dishwasher, and in-unit washer/dryer. Pet friendly, with one free parking space per residence. Apply online today.",
+  seoDescription: "Modern 1- and 2-bedroom apartments for rent in Dover, NJ at 337 East Blackwell Street. 1-bedrooms from $1,795, 2-bedrooms from $2,450. In-unit washer/dryer, granite countertops, stainless appliances, free parking, pet friendly. Apply online today.",
 
   hero: {
     headline: "Welcome to Your New Standard of Living in Dover.",
