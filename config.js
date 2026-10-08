@@ -8,11 +8,11 @@ window.PROPERTY = {
   shortName: "337",
   logoSub: "EAST BLACKWELL",
   city: "Dover, NJ",
-  seoDescription: "Modern 1- and 2-bedroom apartments for rent in Dover, NJ at 337 East Blackwell Street. 1-bedrooms from $1,795, 2-bedrooms from $2,450. In-unit washer/dryer, granite countertops, stainless appliances, free parking, pet friendly. Apply online today.",
+  seoDescription: "Explore luxury apartments for rent in Dover, NJ, in Morris County. Alfa Luxury Living offers 1- and 2-bedroom rentals with in-unit laundry and included parking.",
 
   hero: {
-    headline: "Welcome to Your New Standard of Living in Dover.",
-    sub: "19 Completely Remodeled, Modern Residences at 337 East Blackwell Street.",
+    headline: "Luxury Apartments for Rent in Dover, NJ.",
+    sub: "Alfa Luxury Living at 337 East Blackwell Street. Discover 19 remodeled 1- and 2-bedroom apartments in Morris County, New Jersey.",
     image: "images/hero.jpg"
   },
 
@@ -42,8 +42,8 @@ window.PROPERTY = {
   residentPortalUrl: "",  // TODO: TenantCloud resident login (rent, maintenance)
 
   vibe: {
-    headline: "Fresh Design. Unmatched Convenience.",
-    body: "Step into a community built for the modern renter. Located in the vibrant heart of Dover, 337 East Blackwell offers an exclusive collection of 19 beautifully updated 1- and 2-bedroom residences. With sleek finishes and bright open-concept layouts, this is more than just an apartment — it's your ultimate home base.",
+    headline: "Your next apartment. A fresh start.",
+    body: "Find your next home at Alfa Luxury Living, a collection of 19 remodeled apartments for rent at 337 East Blackwell Street in Dover, NJ. Our luxury rental apartments pair bright interiors with marble/granite countertops, updated stainless steel appliances, a gas stove, a dishwasher, and an in-unit washer and dryer. Choose a one-bedroom, two-bedroom, or two-bedroom-plus-office layout, with one parking space included per residence.",
     image: "images/full/p18.jpg"
   },
 
@@ -86,11 +86,11 @@ window.PROPERTY = {
   accessibility: "Wheelchair-accessible building with one accessible residence still available. Please contact us for more information.",
 
   pricingTeaser: {
-    headline: "Find Your Perfect Fit.",
-    body: "Whether you need a compact, efficient space or a sprawling 2-bedroom with a dedicated home office, we have a layout that fits your life.",
+    headline: "A rental that fits your life.",
+    body: "Compare one- and two-bedroom apartments for rent in Dover, including layouts with a home office or a second bathroom. Explore floor plans and starting monthly rents, then contact Elvin Ruiz for current availability.",
     lines: [
-      { label: "1-Bedroom Residences", price: "starting at $1,795" },
-      { label: "2-Bedroom Residences", price: "starting at $2,450" }
+      { label: "1-Bedroom Apartments", price: "starting at $1,795" },
+      { label: "2-Bedroom Apartments", price: "starting at $2,450" }
     ],
     flagship: { price: 1895, label: "Featured Residence", image: "images/full/p52.jpg" }
   },
